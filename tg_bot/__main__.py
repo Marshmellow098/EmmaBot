@@ -146,9 +146,9 @@ def send_start(bot, update):
     text += "\n\nif authorization is not taken , Bot will be removed from your group."    
 
     
-    keyboard = [[InlineKeyboardButton(text="➕ Add me in your Group ➕", url="t.me/ebruiser_bot?startgroup=true")]]
-    keyboard += [[InlineKeyboardButton(text="📣 Bot Channel", url="https://t.me/ebruiser"), InlineKeyboardButton(text="❗ Global Bans", url="https://t.me/castudentsfed")]]
-    keyboard += [[InlineKeyboardButton(text="⚙️ Get Help", callback_data="help_back"),InlineKeyboardButton(text="♠️ My Master",url="https://sushantgirdhar.github.io")]]
+    keyboard = [[InlineKeyboardButton(text="➕ Add me in your Group ➕", url="t.me/MissEmmaBot?startgroup=true")]]
+    keyboard += [[InlineKeyboardButton(text="📣 Bot Channel", url="https://t.me/otherProject"), InlineKeyboardButton(text="❗ Global Bans", url="https://t.me/emmagban")]]
+    keyboard += [[InlineKeyboardButton(text="⚙️ Get Help", callback_data="help_back"),InlineKeyboardButton(text="♠️ My Master",url="https://t.me/projectdevloper")]]
    
     update.effective_message.reply_video(HELP_PANEL_STRING.tg_bot_IMG,text, reply_markup=InlineKeyboardMarkup(keyboard), parse_mode=ParseMode.MARKDOWN)
 
@@ -248,7 +248,7 @@ def get_help(bot: Bot, update: Update):
         update.effective_message.reply_text("Contact me in PM to get the list of possible commands.",
                                             reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton(text="Help",url="t.me/{}?start=help".format(bot.username)),
-                                                InlineKeyboardButton(text="👥 Bot Channel",url="https://telegram.dog/ebruiser")]]))
+                                                InlineKeyboardButton(text="👥 Bot Channel",url="https://t.me/otherProject/3")]]))
         return
 
     elif len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
