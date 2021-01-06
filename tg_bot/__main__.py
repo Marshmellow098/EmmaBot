@@ -141,9 +141,9 @@ def send_start(bot, update):
     except:
         pass
     chat = update.effective_chat  # type: Optional[Chat]
-    text = " *Hey there! My name is Auditor* ✪ . I'm here to help you manage your CA Groups."
-    text += "\n\nBefore adding me to your group. you must take authorization from [Here](https://t.me/sushantgirdhar)" 
-    text += "\n\nif authorization is not taken , Bot will be removed from your group."    
+    text = " *My Name is. i am a modular group manage bot!"
+    text += "\n\n×/start: starts me. can be use to check im alive or not!" 
+    text += "\n\n×/help: PM's you this message."    
 
     
     keyboard = [[InlineKeyboardButton(text="➕ Add me in your Group ➕", url="t.me/MissEmmaBot?startgroup=true")]]
