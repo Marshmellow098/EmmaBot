@@ -431,7 +431,7 @@ def source(bot: Bot, update: Update):
 
     else:
         try:
-            bot.send_message(user.id, SOURCE_STRING, parse_mode=ParseMode.MARKDOWN)
+            bot.send_message(user.id, HELP_PANEL_STRING.SOURCE_STRING, parse_mode=ParseMode.MARKDOWN)
 
             update.effective_message.reply_text("You'll find in PM more info about my sourcecode.")
         except Unauthorized:
