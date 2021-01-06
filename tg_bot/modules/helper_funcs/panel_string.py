@@ -1,4 +1,4 @@
-tg_bot_IMG = "https://telegra.ph/file/ba252dd4373b90ec97df0.jpg"
+tg_bot_IMG = "https://telegra.ph/file/19fefd9450990ca81c1b2.mp4"
 
 SOURCE_STRING = """
 *#GITHUB*
@@ -14,10 +14,10 @@ My name is *{}*!
 i am a modular group management bot!
 promote me as admin to let me get in action!
 
-**Main Command**
+*MainCommand*
  - × /start: Starts me, can be used to check i'm alive or no?
  - × /help: PM's you this message.
- - × /Dource: find out, whats ticking me here!
+ - × /Source: find out, whats ticking me here!
 {}
 Bot Updates Channel @otherProject:
 """
